@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'Goudy Sto';
-  src: URL(./fonts/GOUDYSTO.ttf) format("truetype");
-}
 
 @-webkit-keyframes linkHover {
   from {
@@ -243,7 +239,7 @@ nav ul {
 }
 
 .main-section h1 {
-  font-family: "Goudy Sto";
+  font-family: "Goudy Stout";
   font-size: 1.2rem;
 }
 
