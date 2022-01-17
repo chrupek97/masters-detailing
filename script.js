@@ -1,7 +1,6 @@
 toggleMenuListener = () => {
     const toggleMenuLinksBox = document.querySelector(".toggle-menu__links ul");
     toggleMenuLinksBox.classList.toggle("d-flex");
-    console.log(toggleMenuLinksBox)
 }
 
 initAnimationObserver = () => {
@@ -16,7 +15,6 @@ initAnimationObserver = () => {
             } else {
                 entry.target.classList.add("appear");
                 animationObserver.unobserve(entry.target);
-                console.log(entry.target.classList)
             }
         })
     }, options)
