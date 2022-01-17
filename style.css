@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 @-webkit-keyframes linkHover {
   from {
     width: 0%;
@@ -8,7 +7,6 @@
     width: calc(100% - 4rem);
   }
 }
-
 @keyframes linkHover {
   from {
     width: 0%;
@@ -239,7 +237,7 @@ nav ul {
 }
 
 .main-section h1 {
-  font-family: "Goudy Stout";
+  font-family: "Goudy Sto";
   font-size: 1.2rem;
 }
 
@@ -724,6 +722,11 @@ nav ul {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   cursor: pointer;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #33b5f9;
 }
 
 .map {

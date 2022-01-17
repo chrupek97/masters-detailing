@@ -6,11 +6,6 @@ $dark-accent-color: rgb(49, 151, 206);
 $font-family: 'Roboto Mono',
 monospace;
 
-@font-face {
-    font-family: 'Goudy Sto';
-    src: URL(./fonts/GOUDYSTO.ttf) format('truetype');
-}
-
 @keyframes linkHover {
     from {width: 0%;}
     to {width: calc(100% - 4rem);}
@@ -517,6 +512,11 @@ nav ul {
 .btn:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: $accent-color;
 }
 
 .map {
