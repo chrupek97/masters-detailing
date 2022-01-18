@@ -44,7 +44,7 @@ nextImage = (maxNum) => {
 
 changeImage = () => {
     const currentImageBox = document.querySelector(".modal-dialog__current-image");
-    currentImageBox.src = `/images/${directory}/${currentNumImage}.jpg`;
+    currentImageBox.src = `./images/${directory}/${currentNumImage}.jpg`;
 
     currentImageBox.classList.add("no-appear");
     setTimeout(() => {
