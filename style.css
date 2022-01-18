@@ -126,14 +126,7 @@ nav ul {
   display: none;
 }
 
-.link {
-  text-decoration: none;
-  color: white;
-  padding: 1rem;
-  position: relative;
-}
-
-.link:hover::before {
+.links :hover::before {
   position: absolute;
   content: '';
   top: 100%;
@@ -142,6 +135,13 @@ nav ul {
   -webkit-animation: linkHover 300ms ease-in-out forwards;
           animation: linkHover 300ms ease-in-out forwards;
   left: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  position: relative;
 }
 
 .logo {
@@ -237,7 +237,7 @@ nav ul {
 }
 
 .main-section h1 {
-  font-family: "Goudy Sto";
+  font-family: "Goudy Stout";
   font-size: 1.2rem;
 }
 

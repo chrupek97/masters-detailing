@@ -40,16 +40,16 @@
         <div class="toggle-menu__links">
             <ul class="d-none">
                 <li>
-                    <a href="index#offer">Oferta</a>
+                    <a href="index.html#offer" class="link">Oferta</a>
                 </li>
                 <li>
-                    <a href="index#projects">Realizacje</a>
+                    <a href="index.html#projects" class="link">Realizacje</a>
                 </li>
                 <li>
-                    <a href="index#price-list">Cennik</a>
+                    <a href="index.html#price-list" class="link">Cennik</a>
                 </li>
                 <li>
-                    <a href="index#contact">Kontakt</a>
+                    <a href="index.html#contact" class="link">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -60,61 +60,61 @@
                 <div class="project-item__name">
                     Audi Q3 Sportback
                 </div>
-                <img class="project-item__img" src="images/cars/AudiQ3/1.jpg" data-num ="3">
+                <img class="project-item__img" src="images/cars/AudiQ3/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Honda Accord
                 </div>
-                <img class="project-item__img" src="images/cars/HondaAccord/1.jpg">
+                <img class="project-item__img" src="images/cars/HondaAccord/1.jpg" data-num="6">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Renault Laguna
                 </div>
-                <img class="project-item__img" src="images/cars/RenaultLaguna/1.jpg">
+                <img class="project-item__img" src="images/cars/RenaultLaguna/1.jpg" data-num="4">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Seat Leon FR
                 </div>
-                <img class="project-item__img" src="images/cars/SeatLeon/1.jpg">
+                <img class="project-item__img" src="images/cars/SeatLeon/1.jpg" data-num="4">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Skoda Fabia
                 </div>
-                <img class="project-item__img" src="images/cars/SkodaFabia/1.jpg">
+                <img class="project-item__img" src="images/cars/SkodaFabia/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Volvo XC60
                 </div>
-                <img class="project-item__img" src="images/cars/VolvoXC60/1.jpg">
+                <img class="project-item__img" src="images/cars/VolvoXC60/1.jpg" data-num="6">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Mercedes A W169
                 </div>
-                <img class="project-item__img" src="images/cars/MercedesA/1.jpg">
+                <img class="project-item__img" src="images/cars/MercedesA/1.jpg" data-num="6">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Lexus IS200
                 </div>
-                <img class="project-item__img" src="images/cars/LexusIS220/1.jpg">
+                <img class="project-item__img" src="images/cars/LexusIS220/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Audi A3
                 </div>
-                <img class="project-item__img" src="images/cars/AudiA3/1.jpg">
+                <img class="project-item__img" src="images/cars/AudiA3/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     BMW 525
                 </div>
-                <img class="project-item__img" src="images/cars/BMW525/1.jpg">
+                <img class="project-item__img" src="images/cars/BMW525/1.jpg" data-num="2">
             </div>
         </section>
         <footer>
@@ -122,10 +122,10 @@
                 <img src="./images/logo.jpg">
             </div>
             <div class="footer-links">
-                <a href="#offer">Oferta</a>
-                <a href="#projects">Realizacje</a>
-                <a href="#price-list">Cennik</a>
-                <a href="#contact">Kontakt</a>
+                <a href="index.html#offer">Oferta</a>
+                <a href="index.html#projects">Realizacje</a>
+                <a href="index.html#price-list">Cennik</a>
+                <a href="index.html#contact">Kontakt</a>
             </div>
             <div class="social-media">
                 <div>
@@ -140,20 +140,20 @@
     </main>
 </body>
 <div class="modal-dialog d-none">
-    <div class="modal-dialog__images">
-        <div class="close-button">
-            <img src="/images/icons/close.png">
-        </div>
-        <div class="prev-button">
-            <img src="/images/icons/left-arrow.png">
-        </div>
-        <div class="next-button">
-            <img src="/images/icons/right-arrow.png">
-        </div>
+    <img class="modal-dialog__current-image"></img>
+    <div class="close-button">
+        <img src="/images/icons/close.png">
     </div>
+    <div class="prev-button">
+        <img src="/images/icons/left-arrow.png">
+    </div>
+    <div class="next-button">
+        <img src="/images/icons/right-arrow.png">
+    </div>
+    <div class="modal-dialog__all-images"></div>
 </div>
 
 <script src="projects.js"></script>
-<!-- <script src="script.js"></script> -->
+<script src="menu.js"></script>
 
 </html>

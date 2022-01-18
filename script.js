@@ -1,7 +1,3 @@
-toggleMenuListener = () => {
-    const toggleMenuLinksBox = document.querySelector(".toggle-menu__links ul");
-    toggleMenuLinksBox.classList.toggle("d-flex");
-}
 
 initAnimationObserver = () => {
     const options = {
@@ -21,7 +17,6 @@ initAnimationObserver = () => {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const toggleMenu = document.querySelector(".toggle-menu");
     const mainSectionDescriptionBox = document.querySelector(".main-section__description");
     const aboutUsBox = document.querySelector("#about-us");
     const offerBox = document.querySelector("#offer");
@@ -39,6 +34,4 @@ document.addEventListener("DOMContentLoaded", () => {
     for (let i = 0; i < projectItemsBox.length; i++) {
         animationObserver.observe(projectItemsBox[i]);
     }
-
-    toggleMenu.addEventListener("click", toggleMenuListener);
 });
