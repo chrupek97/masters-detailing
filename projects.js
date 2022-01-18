@@ -90,7 +90,7 @@ setImages = (dir, imgNumber) => {
 
     for (let i = 1; i <= imgNumber; i++) {
         const img = document.createElement("img");
-        img.src = `/images/${directory}/${i}.jpg`;
+        img.src = `./images/${directory}/${i}.jpg`;
 
         allImagesBox.appendChild(img);
     }
