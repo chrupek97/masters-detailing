@@ -5,8 +5,15 @@ $accent-color: rgb(51, 181, 249);
 $dark-accent-color: rgb(49, 151, 206);
 $font-family: 'Roboto Mono',
 monospace;
+@font-face {
+    font-family: "Goudy Stout";
+    src: url("//db.onlinewebfonts.com/t/a72a7fbcaa9a8d77295e466c12c1f749.eot");
+    src: url("//db.onlinewebfonts.com/t/a72a7fbcaa9a8d77295e466c12c1f749.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a72a7fbcaa9a8d77295e466c12c1f749.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a72a7fbcaa9a8d77295e466c12c1f749.woff") format("woff"), url("//db.onlinewebfonts.com/t/a72a7fbcaa9a8d77295e466c12c1f749.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a72a7fbcaa9a8d77295e466c12c1f749.svg#Goudy Stout") format("svg");
+}
+
 
 /** ANIMATIONS **/
+
 @keyframes linkHover {
     from {
         width: 0%;
@@ -42,6 +49,7 @@ monospace;
 
 
 /** GENERAL **/
+
 *,
 *::after,
 *::before {
@@ -65,7 +73,6 @@ nav {
     position: relative;
 }
 
-
 nav ul {
     display: flex;
     list-style-type: none;
@@ -79,7 +86,6 @@ footer {
     flex-direction: column;
     align-items: center;
     color: $white-color;
-
     .logo {
         padding: 1rem;
         display: block;
@@ -88,7 +94,6 @@ footer {
         height: 120px;
         max-width: 300px;
         background: $gray-color;
-        
         img {
             width: 100%;
         }
@@ -187,7 +192,6 @@ footer {
     color: $white-color;
     padding: 1rem;
     position: relative;
-
     &:hover::before {
         position: absolute;
         content: '';
@@ -201,6 +205,7 @@ footer {
 
 
 /** TOGGLE MENU **/
+
 .toggle-menu {
     padding: 0.25rem;
     width: 40px;
@@ -240,6 +245,7 @@ footer {
 
 
 /** MAIN IMAGE BOX **/
+
 .main-section__box {
     width: 100%;
     height: calc(100vh - 70px - 2rem);
@@ -257,7 +263,6 @@ footer {
     background-position: center;
     width: 100%;
     height: 100%;
-
     h1 {
         font-family: "Goudy Stout";
         font-size: 1.2rem;
@@ -309,7 +314,9 @@ footer {
     width: 2rem;
 }
 
+
 /** CONTAINER **/
+
 .container {
     overflow: hidden;
     padding: 2rem 1rem;
@@ -327,7 +334,9 @@ footer {
     }
 }
 
+
 /** ANIMATED CONTAINERS **/
+
 #about-us {
     transform: translateX(-100%);
 }
@@ -364,7 +373,9 @@ footer {
     opacity: 1;
 }
 
+
 /** OFFERS CONTAINER **/
+
 .offers-box {
     display: flex;
     justify-content: center;
@@ -376,7 +387,6 @@ footer {
     position: relative;
     padding: 1rem;
     transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
-
     p {
         text-align: center;
     }
@@ -408,7 +418,9 @@ footer {
     transform: scale(1.05);
 }
 
+
 /** PROJECTS CONTAINER **/
+
 .projects-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -416,7 +428,6 @@ footer {
     width: 100%;
     min-width: 300px;
     min-height: 300px;
-
     img {
         width: 100%;
         height: 100%;
@@ -519,33 +530,33 @@ footer {
     grid-column: 2/3;
 }
 
+
 /** PRICES CONTAINER **/
+
 .price-list__box {
     width: 100%;
-
     th {
         text-align: left;
         color: $white-color;
         background: $accent-color;
     }
-
     .table-header {
         font-size: 1.5rem;
         text-align: center;
     }
-
     tr td {
         border-bottom: 1px solid grey;
     }
 }
 
+
 /** CONTACT CONTAINER**/
+
 .contact-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
-
     img {
         width: 100%;
         height: 100%;
@@ -574,7 +585,6 @@ footer {
     flex-direction: column;
     align-items: center;
     padding-bottom: 1rem;
-
     a {
         text-decoration: none;
         color: $white-color;
@@ -589,7 +599,6 @@ footer {
             height: 200px;
         }
     }
-
     .contact-box {
         width: 100%;
         flex-direction: row;
@@ -601,34 +610,27 @@ footer {
     nav {
         padding: 1.5rem 5rem;
     }
-
     footer {
         flex-direction: row;
         padding: 1rem 5rem;
         justify-content: space-between;
-
         .social-media__box {
             width: 20%;
-            
             img {
                 width: 30px;
             }
         }
     }
-
     .toggle-menu {
         display: none;
     }
-
     .links-box {
         display: flex;
         justify-content: space-between;
     }
-
     .link {
         padding: 1rem 2rem;
     }
-
     .toggle-menu__links {
         display: none;
     }
