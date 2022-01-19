@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/logo.jpg">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/cb1a9d8c8e33d221e26a0d8247856c5e?family=Goudy+Stout" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/cb1a9d8c8e33d221e26a0d8247856c5e?family=Goudy+Stout" rel="stylesheet" type="text/css" />
     <title>Masters Detailing</title>
 </head>
 
 <body>
     <nav>
         <img src="./images/logo.jpg" class="logo">
-        <ul class="links">
+        <ul class="links-box">
             <li>
                 <a href="#offer" class="link">Oferta</a>
             </li>
@@ -32,9 +32,9 @@
             </li>
         </ul>
         <div class="toggle-menu">
-            <span class="toggle-item"></span>
-            <span class="toggle-item"></span>
-            <span class="toggle-item"></span>
+            <span class="toggle-menu__item"></span>
+            <span class="toggle-menu__item"></span>
+            <span class="toggle-menu__item"></span>
         </div>
         <div class="toggle-menu__links">
             <ul class="d-none">
@@ -55,16 +55,17 @@
     </nav>
     <main>
         <section class="main-section__box">
-            <div class="main-section">
+            <div class="main-section__image">
                 <div class="main-section__description">
-                    <h1 class="header-title"><span class="big-char">M</span>asters <span class="big-char">D</span>etailing</h1>
-                    <p class="accent-info">Usługi detailingowe</p>
-                    <div class="social-media">
-                        <div>
-                            <img src="images/fb-icon.png">
+                    <h1><span class="big-char">M</span>asters <span class="big-char">D</span>etailing</h1>
+                    <p class="accent-info__box">Usługi detailingowe</p>
+                    <div class="social-media__box">
+                        <div class="social-media__item">
+                            <img src="./images/icons/fb-icon.png" class="social-media__image">
                             <p>Facebook</p>
                         </div>
-                        <div><img src="images/ig-icon.png">
+                        <div class="social-media__item">
+                            <img src="./images/icons/ig-icon.png" class="social-media__image">
                             <p>Instagram</p>
                         </div>
                     </div>
@@ -84,46 +85,41 @@
             <h1 class="accent-text">Oferta</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione magnam rem earum minus dicta accusamus asperiores praesentium illo officiis? Debitis molestias quidem eius delectus quibusdam quisquam eum, possimus doloremque praesentium.
                 Recusandae aliquam doloremque delectus. Sequi, facere! Architecto, eaque deleniti quisquam aperiam, tempore libero voluptatum quos quod beatae exercitationem neque.</p>
-            <div class="services-box">
-                <div class="service-item">
-                    <img src="images/complete-detailing.jpg">
-                    <div>
-                        <p>Kompletny</p>
-                        <p>detailing</p>
+            <div class="offers-box">
+                <div class="offer-item">
+                    <img src="./images/offers/complete-detailing.jpg" class="offer-item__image">
+                    <div class="offer-item__title">
+                        Kompletny detailing
                     </div>
                 </div>
-                <div class="service-item">
-                    <img src="images/inside-detailing.jpg">
-                    <div>
-                        <p>Detailing</p>
-                        <p>wnętrza</p>
+                <div class="offer-item">
+                    <img src="./images/offers/inside-detailing.jpg" class="offer-item__image">
+                    <div class="offer-item__title">
+                        Detailing wnętrza
                     </div>
                 </div>
-                <div class="service-item">
-                    <img src="images/complete-detailing.jpg">
-                    <div>
-                        <p>Korekta</p>
-                        <p>lakieru</p>
+                <div class="offer-item">
+                    <img src="./images/offers/complete-detailing.jpg" class="offer-item__image">
+                    <div class="offer-item__title">
+                        Korekta lakieru
                     </div>
                 </div>
-                <div class="service-item">
-                    <img src="images/rim-detailing.jpg">
-                    <div>
-                        <p>Detailing</p>
-                        <p>Felg</p>
+                <div class="offer-item">
+                    <img src="./images/offers/rim-detailing.jpg" class="offer-item__image">
+                    <div class="offer-item__title">
+                        Detailing felg
                     </div>
                 </div>
-                <div class="service-item">
-                    <img src="images/upholstery-detailing.jpg">
-                    <div>
-                        <p>Zabezpieczenie</p>
-                        <p>Wnętrza</p>
+                <div class="offer-item">
+                    <img src="./images/offers/upholstery-detailing.jpg" class="offer-item__image">
+                    <div class="offer-item__title">
+                        Zabezpieczenie wnętrza
                     </div>
                 </div>
-                <div class="service-item">
-                    <img src="images/waxing-detailing.jpg">
-                    <div>
-                        <p>Woskowanie</p>
+                <div class="offer-item">
+                    <img src="./images/offers/waxing-detailing.jpg" class="offer-item__image">
+                    <div class="offer-item__title">
+                        Woskowanie
                     </div>
                 </div>
         </section>
@@ -132,16 +128,16 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ratione magnam rem earum minus dicta accusamus asperiores praesentium illo officiis? Debitis molestias quidem eius delectus quibusdam quisquam eum, possimus doloremque praesentium.
                 Recusandae aliquam doloremque delectus. Sequi, facere! Architecto, eaque deleniti quisquam aperiam, tempore libero voluptatum quos quod beatae exercitationem neque.</p>
             <div class="projects-box">
-                <div class="image-box__1"><img src="images/1.jpg" alt=""></div>
-                <div class="image-box__2"><img src="images/2.jpg" alt=""></div>
-                <div class="image-box__3"><img src="images/3.jpg" alt=""></div>
-                <div class="image-box__4"><img src="images/4.jpg" alt=""></div>
-                <div class="image-box__5"><img src="images/5.jpg" alt=""></div>
-                <div class="image-box__6"><img src="images/6.jpg" alt=""></div>
-                <div class="image-box__7"><img src="images/7.jpg" alt=""></div>
-                <div class="image-box__8"><img src="images/8.jpg" alt=""></div>
-                <div class="image-box__9"><img src="images/9.jpg" alt=""></div>
-                <div class="image-box__10"><img src="images/10.jpg"></div>
+                <div class="image-box__1"><img src="./images/projects/1.jpg" alt=""></div>
+                <div class="image-box__2"><img src="./images/projects/2.jpg" alt=""></div>
+                <div class="image-box__3"><img src="./images/projects/3.jpg" alt=""></div>
+                <div class="image-box__4"><img src="./images/projects/4.jpg" alt=""></div>
+                <div class="image-box__5"><img src="./images/projects/5.jpg" alt=""></div>
+                <div class="image-box__6"><img src="./images/projects/6.jpg" alt=""></div>
+                <div class="image-box__7"><img src="./images/projects/7.jpg" alt=""></div>
+                <div class="image-box__8"><img src="./images/projects/8.jpg" alt=""></div>
+                <div class="image-box__9"><img src="./images/projects/9.jpg" alt=""></div>
+                <div class="image-box__10"><img src="./images/projects/10.jpg"></div>
             </div>
             <button type="button" class="btn btn-accent">
                 <a href="projects.html" class="btn-link">Więcej realizacji</a></button>
@@ -150,7 +146,7 @@
             <h1 class="accent-text">Cennik</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt culpa delectus iure sint quos dolor laboriosam, libero ad fugit reiciendis, minus labore, ea asperiores sapiente quae tempore optio deleniti eveniet iusto error similique placeat
                 voluptatem corrupti!</p>
-            <table class="price-list__table">
+            <table class="price-list__box">
                 <tr>
                     <th colspan="3" class="table-header">Wnętrze auta</th>
                 </tr>
@@ -248,54 +244,45 @@
                 necessitatibus sit rem nesciunt, consequatur voluptatum cum error molestiae aliquam.</p>
             <div class="contact-box">
                 <div class="contact-item flex-start">
-                    <div class="img-container">
-                        <img src="images/men-1.png">
-                    </div>
-                    <div class="contact-description">
-                        <p>Mateusz Dobrzycki</p>
-                        <p>Tel: XXX-XXX-XXX</p>
-                        <p>E-mail: aaa@aaa.pl</p>
-                    </div>
+                    <img src="images/contact/men-1.png">
+                    <p>Mateusz Dobrzycki</p>
+                    <p>Tel: XXX-XXX-XXX</p>
+                    <p>E-mail: aaa@aaa.pl</p>
                 </div>
                 <div class="contact-item flex-end">
-                    <div class="img-container">
-                        <img src="images/men-1.png">
-                    </div>
-                    <div class="contact-description">
-                        <p>Damian Kalinowski</p>
-                        <p>Tel: XXX-XXX-XXX</p>
-                        <p>E-mail: aaa@aaa.pl</p>
-                    </div>
+                    <img src="images/contact/men-1.png">
+                    <p>Damian Kalinowski</p>
+                    <p>Tel: XXX-XXX-XXX</p>
+                    <p>E-mail: aaa@aaa.pl</p>
                 </div>
             </div>
         </section>
-        <section class="map-container">
+        <section>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422.64664800322475!2d22.00303516291603!3d53.1846618460457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471e3146f10da621%3A0xdfec7905c9dc7a01!2sSadowa%2C%2018-400!5e0!3m2!1sen!2spl!4v1642163837272!5m2!1sen!2spl"
                 class="map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
         <footer>
-            <div class="logo">
-                <img src="./images/logo.jpg">
-            </div>
+            <img src="./images/logo.jpg" class="logo">
             <div class="footer-links">
                 <a href="#offer">Oferta</a>
                 <a href="#projects">Realizacje</a>
                 <a href="#price-list">Cennik</a>
                 <a href="#contact">Kontakt</a>
             </div>
-            <div class="social-media">
-                <div>
-                    <img src="images/fb-icon.png">
+            <div class="social-media__box">
+                <div class="social-media__item">
+                    <img src="./images/icons/fb-icon.png">
                     <p>Facebook</p>
                 </div>
-                <div><img src="images/ig-icon.png">
+                <div class="social-media__item">
+                    <img src="./images/icons/ig-icon.png">
                     <p>Instagram</p>
                 </div>
             </div>
         </footer>
     </main>
-    <script src="script.js"></script>
-    <script src="menu.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/animations.js"></script>
 </body>
 
 </html>

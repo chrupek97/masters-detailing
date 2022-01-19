@@ -3,7 +3,6 @@ toggleMenuListener = () => {
     toggleMenuLinksBox.classList.toggle("d-flex");
 }
 
-
 document.addEventListener("DOMContentLoaded", () => {
     const toggleMenu = document.querySelector(".toggle-menu");
     toggleMenu.addEventListener("click", toggleMenuListener);

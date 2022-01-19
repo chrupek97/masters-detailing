@@ -2,7 +2,7 @@ let currentNumImage = 1;
 let directory = "";
 
 document.addEventListener('DOMContentLoaded', () => {
-    const projectItems = document.querySelectorAll('.project-item__img');
+    const projectItems = document.querySelectorAll('.project-item__image');
     addProjectItemListener(projectItems);
 });
 
