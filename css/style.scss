@@ -13,7 +13,6 @@ monospace;
 
 
 /** ANIMATIONS **/
-
 @keyframes linkHover {
     from {
         width: 0%;
@@ -58,7 +57,7 @@ monospace;
     box-sizing: border-box;
 }
 
-body {
+body, html {
     font-family: $font-family;
     overflow-x: hidden;
 }
