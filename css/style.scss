@@ -60,6 +60,7 @@ monospace;
 body, html {
     font-family: $font-family;
     overflow-x: hidden;
+    position: relative;
 }
 
 nav {

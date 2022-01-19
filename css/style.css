@@ -97,6 +97,7 @@
 body, html {
   font-family: "Roboto Mono", monospace;
   overflow-x: hidden;
+  position: relative;
 }
 
 nav {
