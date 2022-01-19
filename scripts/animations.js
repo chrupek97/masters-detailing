@@ -1,4 +1,3 @@
-
 initAnimationObserver = () => {
     const options = {
         rootMargin: "0px 0px 0px 0px"

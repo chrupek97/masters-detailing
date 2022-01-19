@@ -1,3 +1,4 @@
+/** PROJECT BOX **/
 .projects-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31,7 +32,7 @@
           transform: scale(1.05);
 }
 
-.project-item__img {
+.project-item__image {
   border-radius: 100%;
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
@@ -52,6 +53,7 @@
   z-index: 1;
 }
 
+/** MODAL DIALOG **/
 .modal-dialog {
   position: absolute;
   left: 0;

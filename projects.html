@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/logo.jpg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 <body>
     <nav>
         <img src="./images/logo.jpg" class="logo">
-        <ul class="links">
+        <ul class="links-box">
             <li>
                 <a href="index.html#offer" class="link">Oferta</a>
             </li>
@@ -54,106 +54,105 @@
             </ul>
         </div>
     </nav>
-    <main class="main">
+    <main>
         <section class="container projects-box">
             <div class="project-item">
                 <div class="project-item__name">
                     Audi Q3 Sportback
                 </div>
-                <img class="project-item__img" src="images/cars/AudiQ3/1.jpg" data-num="3">
+                <img class="project-item__image" src="images/cars/AudiQ3/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Honda Accord
                 </div>
-                <img class="project-item__img" src="images/cars/HondaAccord/1.jpg" data-num="6">
+                <img class="project-item__image" src="images/cars/HondaAccord/1.jpg" data-num="6">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Renault Laguna
                 </div>
-                <img class="project-item__img" src="images/cars/RenaultLaguna/1.jpg" data-num="4">
+                <img class="project-item__image" src="images/cars/RenaultLaguna/1.jpg" data-num="4">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Seat Leon FR
                 </div>
-                <img class="project-item__img" src="images/cars/SeatLeon/1.jpg" data-num="4">
+                <img class="project-item__image" src="images/cars/SeatLeon/1.jpg" data-num="4">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Skoda Fabia
                 </div>
-                <img class="project-item__img" src="images/cars/SkodaFabia/1.jpg" data-num="3">
+                <img class="project-item__image" src="images/cars/SkodaFabia/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Volvo XC60
                 </div>
-                <img class="project-item__img" src="images/cars/VolvoXC60/1.jpg" data-num="6">
+                <img class="project-item__image" src="images/cars/VolvoXC60/1.jpg" data-num="6">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Mercedes A W169
                 </div>
-                <img class="project-item__img" src="images/cars/MercedesA/1.jpg" data-num="6">
+                <img class="project-item__image" src="images/cars/MercedesA/1.jpg" data-num="6">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Lexus IS200
                 </div>
-                <img class="project-item__img" src="images/cars/LexusIS220/1.jpg" data-num="3">
+                <img class="project-item__image" src="images/cars/LexusIS220/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     Audi A3
                 </div>
-                <img class="project-item__img" src="images/cars/AudiA3/1.jpg" data-num="3">
+                <img class="project-item__image" src="images/cars/AudiA3/1.jpg" data-num="3">
             </div>
             <div class="project-item">
                 <div class="project-item__name">
                     BMW 525
                 </div>
-                <img class="project-item__img" src="images/cars/BMW525/1.jpg" data-num="2">
+                <img class="project-item__image" src="images/cars/BMW525/1.jpg" data-num="2">
             </div>
         </section>
         <footer>
-            <div class="logo">
-                <img src="./images/logo.jpg">
-            </div>
+            <img src="./images/logo.jpg" class="logo">
             <div class="footer-links">
                 <a href="index.html#offer">Oferta</a>
                 <a href="index.html#projects">Realizacje</a>
                 <a href="index.html#price-list">Cennik</a>
                 <a href="index.html#contact">Kontakt</a>
             </div>
-            <div class="social-media">
-                <div>
-                    <img src="images/fb-icon.png">
+            <div class="social-media__box">
+                <div class="social-media__item">
+                    <img src="./images/icons/fb-icon.png">
                     <p>Facebook</p>
                 </div>
-                <div><img src="images/ig-icon.png">
+                <div class="social-media__item">
+                    <img src="./images/icons/ig-icon.png">
                     <p>Instagram</p>
                 </div>
             </div>
         </footer>
     </main>
+    <div class="modal-dialog d-none">
+        <img class="modal-dialog__current-image"></img>
+        <div class="close-button">
+            <img src="./images/icons/close.png">
+        </div>
+        <div class="prev-button">
+            <img src="./images/icons/left-arrow.png">
+        </div>
+        <div class="next-button">
+            <img src="./images/icons/right-arrow.png">
+        </div>
+        <div class="modal-dialog__all-images"></div>
+    </div>
 </body>
-<div class="modal-dialog d-none">
-    <img class="modal-dialog__current-image"></img>
-    <div class="close-button">
-        <img src="./images/icons/close.png">
-    </div>
-    <div class="prev-button">
-        <img src="./images/icons/left-arrow.png">
-    </div>
-    <div class="next-button">
-        <img src="./images/icons/right-arrow.png">
-    </div>
-    <div class="modal-dialog__all-images"></div>
-</div>
 
-<script src="projects.js"></script>
-<script src="menu.js"></script>
+<script src="./scripts/menu.js"></script>
+<script src="./scripts/projects.js"></script>
 
 </html>
